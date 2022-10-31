@@ -4,7 +4,7 @@ model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet50_2', pretrained=T
 # or WRN-101-2
 model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet101_2', pretrained=True)
 model.eval()
-
+print("Enter the filepath:")
 filename = input()
 
 # sample execution (requires torchvision)
